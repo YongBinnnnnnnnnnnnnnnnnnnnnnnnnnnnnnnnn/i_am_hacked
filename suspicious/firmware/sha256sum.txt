@@ -1,1 +1,2 @@
 d08cde1f4065747cd70505d8bcfc360608efe3e18fa8f5699bceb7309ae68c96  spi_bios_dump_sp513_55n.bin
+54449b70545eb5f979ffbb0d0802efdeaf96f4a1d8f9d755d4fa694eb46edc63  HP_ProOne.bin

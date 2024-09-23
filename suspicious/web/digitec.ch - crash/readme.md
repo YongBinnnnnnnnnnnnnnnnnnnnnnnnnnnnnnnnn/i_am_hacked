@@ -1,13 +1,12 @@
-I initially found that if I open the product page of some products from digitec.ch will make my msedge crash.
+I initially found that, when I opened the product page of some products from digitec.ch in Microsoft Edge, my browser would crash.
 
-Then I find out it will not crash if I open the same page in private mode of the browser. So it looks like targeting me.
+Then, I discovered that it wouldn't crash if I opened the same page in private mode. This suggested that the issue might be targeting me specifically.
 
-On the next day, opening such product pages in private mode will also crash.
+However, on the next day, opening such product pages in private mode also caused Edge to crash.
 
-I posted har but not sure if there are any better ways to save the sample.
+I posted a HAR file (which is short for HTTP Archive), but I'm not sure if there are any better ways to save and share the sample with you.
 
-After some debugging I found that if I block compare section with ublock origin will stop the crash.
-
+After some debugging, I found that blocking the 'compare' section using uBlock Origin would prevent the crash from occurring.
 
 ublock origin rule
 ```

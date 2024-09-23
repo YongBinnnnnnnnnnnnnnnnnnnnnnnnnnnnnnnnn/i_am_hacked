@@ -2,7 +2,17 @@ I initially found that if I open the product page of some products from digitec.
 
 Then I find out it will not crash if I open the same page in private mode of the browser. So it looks like targeting me.
 
-Then 
+On the next day, opening such product pages in private mode will also crash.
+
+I posted har but not sure if there are any better ways to save the sample.
+
+After some debugging I found that if I block compare section with ublock origin will stop the crash.
+
+
+ublock origin rule
+```
+www.digitec.ch##.sc-43055d36-0
+```
 
 Edge version
 ```

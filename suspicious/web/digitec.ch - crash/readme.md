@@ -8,6 +8,8 @@ I posted a HAR file (which is short for HTTP Archive), but I'm not sure if there
 
 After some debugging, I found that blocking the 'compare' section using uBlock Origin would prevent the crash from occurring.
 
+There could be other reasons to cause the crash, like a bios virus, so there is a chance that the HAR file actually contains nothing special.
+
 ublock origin rule
 ```
 www.digitec.ch##.sc-43055d36-0
